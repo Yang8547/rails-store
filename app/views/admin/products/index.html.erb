@@ -1,0 +1,21 @@
+<div class="col-md-12">
+  <div class="group">
+    <%= link_to("New Product", new_admin_product_path, class: "btn btn-primary pull-right") %>
+  </div>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <td>#</td>
+        <td>Title</td>
+        <td>Description</td>
+        <td>Inventory</td>
+        <td>Price</td>
+        <td>Option</td>
+        <td>Created At</td>
+      </tr>
+    </thead>
+    <tbody>
+      <%= render partial:'product_row', collection:@products, as: 'product'%>
+    </tbody>
+  </table>
+</div>
