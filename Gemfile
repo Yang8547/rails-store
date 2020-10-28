@@ -29,7 +29,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 # Bootstrap
-gem 'bootstrap', '~> 5.0.0.alpha1'
+gem 'bootstrap-sass'
 gem 'jquery-rails'
 
 # add devise
