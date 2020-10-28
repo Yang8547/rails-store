@@ -2,6 +2,7 @@
 
 Rails Practice Project 2
 
-## Day 1
-
-* Setup `bootstrap` `Device` `Simple form`
+## Setup `bootstrap`, `Device`, `Simple-form`
+## Implement CRUD for admin/products
+## Auth
+## Image upload

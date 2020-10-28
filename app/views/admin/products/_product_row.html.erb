@@ -2,6 +2,7 @@
 <tr>
     <td><%= product.id%></td>
     <td><%= link_to(product.title, admin_product_path(product)) %></td>
+    <td><%= image_tag(product.image.thumb.url.to_s)%></td>
     <td><%= product.description %></td>
     <td><%= product.quantity %></td></td>
     <td><%= product.price %></td></td>
