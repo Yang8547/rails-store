@@ -17,4 +17,4 @@ Rails Practice Project 2
 - Calculate total price
 - Empty Cart
 - remove item from cart
-
+- Cannot add same product to cart

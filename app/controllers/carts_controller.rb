@@ -8,4 +8,5 @@ class CartsController < ApplicationController
         current_cart.cart_items.destroy_all
         redirect_to carts_path, notice: "Cart Clean!"
     end
+
 end
