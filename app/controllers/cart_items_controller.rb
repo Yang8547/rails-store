@@ -9,8 +9,12 @@ class CartItemsController < ApplicationController
 
     def update 
         @cart_item = CartItem.find(params[:id])
-        @cart_item.update(cart_item_params)
-        redirect_to carts_path
+        if @cart_item.quantity < cart_item_params[:quantity].to_i
+            redirect_to carts_path, alert: "Insufficient stock"
+        else
+            @cart_item.update(cart_item_params)
+            redirect_to carts_path
+        end
     end
 
     private

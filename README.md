@@ -18,3 +18,5 @@ Rails Practice Project 2
 - Empty Cart
 - remove item from cart
 - Cannot add same product to cart
+- Change item quantity in cart
+- Cannot add item to cart/edit quantity when inventory is less than 0
