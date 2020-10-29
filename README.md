@@ -13,3 +13,5 @@ Rails Practice Project 2
 ## Day 2
 - Design Cart model and relation
 - Implement 'add to cart'
+- Implement cart index
+- Calculate total price
