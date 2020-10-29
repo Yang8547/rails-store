@@ -15,3 +15,6 @@ Rails Practice Project 2
 - Implement 'add to cart'
 - Implement cart index
 - Calculate total price
+- Empty Cart
+- remove item from cart
+
