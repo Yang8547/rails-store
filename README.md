@@ -9,3 +9,7 @@ Rails Practice Project 2
 -  Image upload
 -  Implement products `index` and `show`
 -  Route root to `'products_page'`, if user is_admin the he can switch to admin dashboard
+
+## Day 2
+- Design Cart model and relation
+- Implement 'add to cart'
